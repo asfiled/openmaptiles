@@ -33,6 +33,16 @@ FROM (
          FROM osm_aeroway_linestring
          WHERE zoom_level >= 13
          UNION ALL
+         -- etldoc:  osm_aeroway_polygon_gen_z8 -> layer_aeroway:z8
+         SELECT geometry, aeroway, ref
+         FROM osm_aeroway_polygon_gen_z8
+         WHERE zoom_level = 8
+         UNION ALL
+         -- etldoc:  osm_aeroway_polygon_gen_z9 -> layer_aeroway:z9
+         SELECT geometry, aeroway, ref
+         FROM osm_aeroway_polygon_gen_z9
+         WHERE zoom_level = 9
+         UNION ALL
          -- etldoc:  osm_aeroway_polygon_gen_z10 -> layer_aeroway:z10
          SELECT geometry, aeroway, ref
          FROM osm_aeroway_polygon_gen_z10

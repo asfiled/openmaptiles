@@ -19,12 +19,12 @@ tileset:
   name: AsFiledTiles
   version: 3.14.0
   id: asfiledtiles
-  description: "A tileset showcasing all layers in OpenMapTiles. https://openmaptiles.org"
+  description: "A tileset for AsFiled. https://asfiled.com"
   attribution: '<a href="https://www.openmaptiles.org/" target="_blank">&copy; OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
   center: [0, 0, 1]
   bounds: [-180.0,-85.0511,180.0,85.0511]
   maxzoom: 13 # Not quite full zoom - was 14
-  minzoom: 3 # Pretty much a whole continent - was 0
+  minzoom: 0 # Pretty much a whole continent
   pixel_scale: 256
   languages:
     - am # Amharic
