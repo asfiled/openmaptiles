@@ -20,6 +20,8 @@ layer:
       - taxiway
       - apron
       - gate
+      - hangar
+      - terminal
   datasource:
     geometry_field: geometry
     query: (SELECT geometry, ref, class FROM layer_aeroway(!bbox!, z(!scale_denominator!))) AS t
