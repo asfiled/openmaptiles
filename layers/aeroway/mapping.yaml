@@ -63,6 +63,8 @@ def_aeroway_polygon_mapping: &aeroway_polygon_mapping
   - helipad
   - taxiway
   - apron
+  - terminal
+  - hangar
 
 tables:
   # etldoc: imposm3 -> osm_aeroway_polygon
