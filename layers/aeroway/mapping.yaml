@@ -15,7 +15,6 @@ generalized_tables:
     sql_filter: ST_IsValid(geometry)
     tolerance: ZRES13
 
-
   # etldoc: osm_aeroway_polygon_gen_z10 -> osm_aeroway_polygon_gen_z8
   aeroway_polygon_gen_z8:
     source: aeroway_polygon_gen_z10
@@ -43,14 +42,12 @@ generalized_tables:
   # etldoc: osm_aeroway_polygon_gen_z13 -> osm_aeroway_polygon_gen_z12
   aeroway_polygon_gen_z12:
     source: aeroway_polygon_gen_z13
-    sql_filter: area>power(ZRES12,2)
-    tolerance: ZRES12
+    sql_filter: area>power(ZRES13,2)
+    tolerance: ZRES13
 
   # etldoc: osm_aeroway_polygon -> osm_aeroway_polygon_gen_z13
   aeroway_polygon_gen_z13:
     source: aeroway_polygon
-    sql_filter: ST_IsValid(geometry)
-    tolerance: ZRES13
 
 ref_field: &ref
   key: ref
