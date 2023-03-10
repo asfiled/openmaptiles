@@ -222,34 +222,34 @@ tables:
       - trunk_link
       - primary
       - primary_link
-      - secondary
-      - secondary_link
-      - tertiary
-      - tertiary_link
-      - unclassified
-      - residential
-      - living_street
-      - road
-      - pedestrian
-      - path
-      - footway
-      - cycleway
-      - steps
-      - bridleway
-      - corridor
-      - service
-      - track
-      - raceway
-      - busway
-      - bus_guideway
-      - construction
-      public_transport:
-      - platform
-      man_made:
-      - pier
-      service:
-      - driveway
-      - parking_aisle
+#      - secondary
+#      - secondary_link
+#      - tertiary
+#      - tertiary_link
+#      - unclassified
+#      - residential
+#      - living_street
+#      - road
+#      - pedestrian
+#      - path
+#      - footway
+#      - cycleway
+#      - steps
+#      - bridleway
+#      - corridor
+#      - service
+#      - track
+#      - raceway
+#      - busway
+#      - bus_guideway
+#      - construction
+#      public_transport:
+#      - platform
+#      man_made:
+#      - pier
+#      service:
+#      - driveway
+#      - parking_aisle
 
 # etldoc: imposm3 -> osm_railway_linestring
   railway_linestring:
