@@ -15,7 +15,7 @@
 * md5sum
 * docker         >=1.12.3
     * https://www.docker.com/products/overview
-* docker-compose >=1.7.1
+* docker compose >=1.7.1
     * https://docs.docker.com/compose/install/
 * disk space ( >= ~15Gb  )
     * for small extracts  >= ~15Gb
@@ -373,7 +373,7 @@ make generate-bbox-file area=mydata
 ```
 
 ### Check postserve
-*  ` docker-compose up -d postserve`
+*  `docker compose up -d postserve`
 and the generated maps are going to be available in browser on [localhost:8090/tiles/0/0/0.pbf](http://localhost:8090/tiles/0/0/0.pbf).
 
 ### Check tileserver

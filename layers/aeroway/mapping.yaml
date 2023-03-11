@@ -18,27 +18,27 @@ generalized_tables:
   # etldoc: osm_aeroway_polygon_gen_z10 -> osm_aeroway_polygon_gen_z8
   aeroway_polygon_gen_z8:
     source: aeroway_polygon_gen_z10
-    tolerance: ZRES14
+    tolerance: ZRES9
 
   # etldoc: osm_aeroway_polygon_gen_z10 -> osm_aeroway_polygon_gen_z9
   aeroway_polygon_gen_z9:
     source: aeroway_polygon_gen_z10
-    tolerance: ZRES14
+    tolerance: ZRES10
 
   # etldoc: osm_aeroway_polygon_gen_z11 -> osm_aeroway_polygon_gen_z10
   aeroway_polygon_gen_z10:
     source: aeroway_polygon_gen_z11
-    tolerance: ZRES14
+    tolerance: ZRES11
 
   # etldoc: osm_aeroway_polygon_gen_z12 -> osm_aeroway_polygon_gen_z11
   aeroway_polygon_gen_z11:
     source: aeroway_polygon_gen_z12
-    tolerance: ZRES14
+    tolerance: ZRES12
 
   # etldoc: osm_aeroway_polygon_gen_z13 -> osm_aeroway_polygon_gen_z12
   aeroway_polygon_gen_z12:
     source: aeroway_polygon_gen_z13
-    tolerance: ZRES14
+    tolerance: ZRES13
 
   # etldoc: osm_aeroway_polygon -> osm_aeroway_polygon_gen_z13
   aeroway_polygon_gen_z13:
