@@ -52,7 +52,7 @@ jobs:
           # Download 2+ month old data
           export old_date=$(date --date="$(date +%Y-%m-15) -2 month" +'%y%m01')
           echo Downloading $old_date extract of $area
-          docker-compose run --rm --user=$(id -u):$(id -g) openmaptiles-tools sh -c "wget -O data/$area.osm.pbf http://download.geofabrik.de/$area-$old_date.osm.pbf"
+          docker compose run --rm --user=$(id -u):$(id -g) openmaptiles-tools sh -c "wget -O data/$area.osm.pbf http://download.geofabrik.de/$area-$old_date.osm.pbf"
           # Initial import and tile generation
           ./quickstart.sh $area
           sleep 2
