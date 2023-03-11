@@ -22,6 +22,8 @@ layer:
       - gate
       - hangar
       - terminal
+      - tower
+      - hangar_buiding
   datasource:
     geometry_field: geometry
     query: (SELECT geometry, ref, class FROM layer_aeroway(!bbox!, z(!scale_denominator!))) AS t
