@@ -115,7 +115,7 @@ echo "      : Git version      : $(git rev-parse HEAD) "
 echo "      : Started          : $STARTDATE "
 echo "      : Your bash version: $BASH_VERSION"
 echo "      : Your OS          : $OSTYPE"
-docker         --version
+docker --version
 docker compose version
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then

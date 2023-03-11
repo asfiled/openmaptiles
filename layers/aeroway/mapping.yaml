@@ -59,6 +59,8 @@ def_aeroway_polygon_mapping: &aeroway_polygon_mapping
   - apron
   - terminal
   - hangar
+  - tower
+  - hangar_building
 
 tables:
   # etldoc: imposm3 -> osm_aeroway_polygon
