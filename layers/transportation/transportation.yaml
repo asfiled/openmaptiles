@@ -34,15 +34,6 @@ layer:
           highway: ['trunk', 'trunk_link']
         primary:
           highway: ['primary', 'primary_link']
-        secondary:
-          highway: ['secondary', 'secondary_link']
-        tertiary:
-          highway: ['tertiary', 'tertiary_link']
-        minor:
-          highway: ['unclassified', 'residential', 'living_street', 'road']
-        path:
-          highway: ['pedestrian', 'path', 'footway', 'cycleway', 'steps', 'bridleway', 'corridor']
-          public_transport: 'platform'
         service:
           highway: service
         track:

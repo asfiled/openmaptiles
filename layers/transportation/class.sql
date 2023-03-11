@@ -64,10 +64,7 @@ SELECT CASE
            WHEN highway IN ('unclassified', 'residential') THEN TRUE
            WHEN highway_class(highway, '', construction) IN
                (
-                'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'raceway',
-                'motorway_construction', 'trunk_construction', 'primary_construction',
-                'secondary_construction', 'tertiary_construction', 'raceway_construction',
-                'busway', 'bus_guideway'
+                'motorway', 'trunk', 'primary', 'raceway','motorway_construction', 'trunk_construction', 'primary_construction','raceway_construction','busway', 'bus_guideway'
                ) THEN TRUE --includes ramps
            ELSE FALSE
        END
